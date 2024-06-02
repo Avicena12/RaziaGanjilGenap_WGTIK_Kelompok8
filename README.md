@@ -27,11 +27,11 @@
 
 **Penjelasan (Python):**
 
-1. kenaRazia menerima dua parameter: date dan data.
-2. lokasi_ganjil_genap adalah daftar lokasi yang termasuk dalam aturan ganjil-genap.
-3. is_date_odd menentukan apakah tanggal adalah ganjil atau genap.
-4. Fungsi is_plate_odd mengecek apakah nomor plat kendaraan adalah ganjil atau genap berdasarkan digit terakhir dari nomor tersebut.
+1. _kenaRazia_ menerima dua parameter: _date_ dan _data_.
+2. _lokasi_ganjil_genap_ adalah daftar lokasi yang termasuk dalam aturan ganjil-genap.
+3. _is_date_odd_ menentukan apakah tanggal adalah ganjil atau genap.
+4. Fungsi _is_plate_odd_ mengecek apakah nomor plat kendaraan adalah ganjil atau genap berdasarkan digit terakhir dari nomor tersebut.
 5. Looping melalui setiap data kendaraan dan mengecek apakah kendaraan tersebut adalah mobil.
 6. Jika mobil melewati rute yang termasuk dalam aturan ganjil-genap, fungsi akan mengecek apakah terdapat pelanggaran berdasarkan kesesuaian antara tanggal dan nomor plat.
-7. Jika ada pelanggaran, data kendaraan ditambahkan ke dalam daftar hasil (results).
+7. Jika ada pelanggaran, data kendaraan ditambahkan ke dalam daftar hasil (_results_).
 8. Fungsi mengembalikan daftar hasil yang berisi data kendaraan yang melanggar aturan ganjil-genap beserta jumlah pelanggaran mereka.
